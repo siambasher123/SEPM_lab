@@ -40,6 +40,9 @@ jobs:
             echo "No formatting changes"
           fi
 
+
+
+
       - name: Build and run tests
         run: mvn -B -DskipTests=false test
         env:
