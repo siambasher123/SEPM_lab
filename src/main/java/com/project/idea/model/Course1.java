@@ -8,11 +8,11 @@ import lombok.Data;
 @Data
 public class Course1 {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+  @Id
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  private Long id;
 
-    private String courseId;
-    private String courseName;
-    private int credit;
+  private String courseId;
+  private String courseName;
+  private int credit;
 }
